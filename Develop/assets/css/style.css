@@ -4,12 +4,20 @@
     font-family:'Poppins',sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
 min-height: 100vh;
 width: 100%;
 background: #000;
 color: white;
 position: relative;
+}
+
+section {
+    height: 100vh;
 }
 
 nav {
@@ -151,3 +159,31 @@ margin-top: 0px;
 .fa-brands{
     font-size: 30px;
 }
+
+.language-bar {
+    background-color : rgb(227, 78, 78);
+    display: flex;
+    position: relative;
+    height: 25vh;
+    justify-content: space-evenly;
+
+}
+
+.languages {
+    border-radius: 20%;
+    width: 125px;
+    height: 125px;
+    margin-top: 14px;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(122, 117, 117);
+    
+}
+
+.languages i {
+    font-size: 130px;
+    margin-left: 14px;
+}
+

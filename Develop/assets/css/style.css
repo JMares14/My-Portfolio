@@ -1,38 +1,153 @@
-.header {
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+}
 
+.header {
+min-height: 100vh;
+width: 100%;
+background: #000;
+color: white;
+position: relative;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+z-index: 1;
 }
 
 .logo {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10%;
+    margin-bottom: 20px;
 
 }
 
 .nav-links {
-    
+    text-align: right;
+    background: rgb(227, 78, 78);
+    padding: 10px 30px;
+    border-bottom-left-radius: 18px;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.nav-links ul li a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+}
+
+.nav-links ul li a:hover {
+    color: #000;
 }
 
 .sidebar-left {
+width: 20%;
+height: 100%;
+position: absolute;
+left: 0;
+top: 0;
+background: #000;
 
 }
 
 .row {
+padding: 0 10%;
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+position: relative;
+margin-top: -1%;
 
 }
 
-.column-right{
+.column-left {
+    flex-basis: 40%;
+}
 
+.column-left img {
+    width: 80%;
+    cursor: pointer;
+    filter: grayscale(0);
+    transition: filter 1s;
+}
+
+.column-left img:hover {
+    filter: grayscale(1);
+}
+
+.column-right {
+flex-basis: 55%;
+}
+
+.column-right h1 {
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+}
+
+.column-right p {
+    color: rgb(155, 151, 151);
+    margin:  20px 0 70px;
 }
 
 .icons {
+width: 100px;
+height: 100px;
+background: #555;
+align-items: center;
+position: relative;
+margin-right: 20px;
+margin-bottom: 20px;
+border-radius: 6px;
+overflow: hidden;
+transition: transform 0.5s;
+}
 
+.icons i {
+width: 28px;
+}
+
+.icons a {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 00.5s;
+}
+
+.icons a:hover {
+    opacity: 1;
+}
+
+.icons:hover {
+transform: translate(-5px);
 }
 
 .social-media{
-
+display: flex;
+margin-top: 0px;
 }
 
-.icons {
-
+.fa-brands{
+    font-size: 30px;
 }
-
-
-

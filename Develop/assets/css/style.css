@@ -283,3 +283,32 @@ nav {
 .project-box-main:hover .overlay {
     opacity: 1;
 }
+
+.footer {
+    display: flex;
+    width: 100vw;
+    background: #a9a9a9;
+
+    height: 5px;
+}
+
+.contact-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 78, 78);
+    position: relative;
+}
+
+.contact-me li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+    justify-content: space-evenly;
+    color: #f1f4d4;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+}

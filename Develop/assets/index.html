@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Welcome-My Portfolio</title>
     <!-- Linking Reset CSS -->
-    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/reset.css" />
     <!-- Linking Style CSS -->
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- Linking Icon Library -->
     <script src="https://kit.fontawesome.com/d6c990409e.js" crossorigin="anonymous"></script>
     <!-- Linking google font -->
@@ -16,14 +17,14 @@
 <body>
     <section class="header">
         <nav>
-            <a href="..." class="logo">Jorge Mares</a>
+            <a href="..." class="logo" id="home">Jorge Mares</a>
             <div class="nav-links">
                 <ul>
-                    <li><a href="...">Home</a></li>
-                    <li><a href="...">Home</a></li>
-                    <li><a href="...">Home</a></li>
-                    <li><a href="...">Home</a></li>
-                    <li><a href="...">Home</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#social-media">Social Media</a></li>
+                    <li><a href="#my-projects">My Works</a></li>
+                    <li><a href="...">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -31,48 +32,49 @@
         <div class="sidebar-left"></div>
         <div class="row">
             <div class="column-left">
-            <img src="./images/400 x 600.png"/>
-        </div>
-        
-        <div class="column-right">
-            <h1>I'm Jorge Mares<br>
-                Software Developer
-            </h1>
-            <p>Add brief intro Add brief intro Add brief intro Add brief intro Add brief intro Add brief intro Add brief intro Add brief intro Add brief intro Add brief intro Add brief intro Add brief intro</p>
-            
-            <div class="social-media">
-                <div class="icons">
-                    <i class="fa-brands fa-facebook-square"></i>
-                    <a href="...">
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                </div>
-                
+                <img src="./images/400 x 600.png" />
+            </div>
+
+            <div class="column-right">
+                <h1 id="about-me">I'm Jorge Mares<br>
+                    Software Developer
+                </h1>
+                <p>Add brief intro Add brief intro Add brief intro Add brief intro Add brief intro Add brief intro Add
+                    brief intro Add brief intro Add brief intro Add brief intro Add brief intro Add brief intro</p>
+
+                <div class="social-media" id="social-media">
                     <div class="icons">
-                        <i class="fa-brands fa-twitter-square"></i>
-                        <a href="...">
-                            <i class="fa-solid fa-arrow-up-right-from-square" ></i>
+                        <i class="fa-brands fa-facebook-square"></i>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"> 
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </a>
                     </div>
 
-                        <div class="icons">
-                            <i class="fa-brands fa-instagram-square"></i>
-                            <a href="...">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
+                    <div class="icons">
+                        <i class="fa-brands fa-twitter-square"></i>
+                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
 
-                            <div class="icons">
-                                <i class="fa-brands fa-github-square"></i>
-                                <a href="...">
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </section>
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram-square"></i>
+                        <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
 
-                    <section>
-        
+                    <div class="icons">
+                        <i class="fa-brands fa-github-square"></i>
+                        <a href="https://github.com/JMares14" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+    </section>
+
+    <section>
+
         <div class="language-bar">
             <div class="languages">
                 <i class="fa-brands fa-html5"></i>
@@ -98,5 +100,45 @@
                 <i class="fa-brands fa-java"></i>
 
             </div>
+        </div>
+
+
+        </div>
+
+        <div class="project-heading">
+            <span>These Are My Works</span>
+            <h3 id="my-projects">My Projects</h3>
+        </div>
+
+        <div class="project-container">
+            <a href="https://github.com/JMares14/Horiseon-Optimization" target="_blank" rel="noopener noreferrer" class="project-box-main">
+                <img src="https://wallpaperaccess.com/full/5651980.jpg" alt="...">
+                <div class="overlay">Horizon Optimization</div>
+            </a>
+
+            <a href="..." class="project-box">
+                <img src="https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="...">
+                <div class="overlay">Project name goes here</div>
+            </a>
+
+            <a href="..." class="project-box">
+                <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="...">
+                <div class="overlay">Project name goes here</div>
+            </a>
+
+            <a href="..." class="project-box">
+                <img src="https://blog.alexdevero.com/wp-content/uploads/2019/08/12-07-19-16-tips-to-become-a-better-programmer-pt1-blog.jpg" alt="...">
+                <div class="overlay">Project name goes here</div>
+            </a>
+
+            <a href="..." class="project-box">
+                <img src="https://wallpaperbat.com/img/253250-how-to-become-computer-programmer.jpg" alt="...">
+                <div class="overlay">Project name goes here</div>
+            </a>
+
+            <a href="..." class="project-box">
+                <img src="https://wallpaperaccess.com/full/5651990.jpg" alt="...">
+                <div class="overlay">Project name goes here</div>
+            </a>
         </div>
     </section>
